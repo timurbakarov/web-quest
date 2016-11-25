@@ -1,0 +1,9 @@
+{
+    "require": {
+        "illuminate/container": "^5.2",
+        "nikic/fast-route": "^1.0",
+        "league/plates": "^3.1",
+        "symfony/debug": "^3.1",
+        "symfony/http-foundation": "^3.1"
+    }
+}
