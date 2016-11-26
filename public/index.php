@@ -1,22 +1,28 @@
 <?php
 
-date_default_timezone_set('Europe/Moscow');
+use App\Contracts\Template;
+use App\Contracts\Template\EngineContract;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 try {
-    $app = require_once __DIR__ . '/../bootstrap.php';
+    require __DIR__ . '/../bootstrap/bootstrap.php';
+
+    $app = new \Illuminate\Container\Container();
+
+    require __DIR__ . '/../bootstrap/components.php';
 
     /** @var \Symfony\Component\HttpFoundation\Response $response */
     $response = require __DIR__ . '/../router.php';
+
 } catch (\App\Exceptions\HttpException $e) {
     $response = new \Symfony\Component\HttpFoundation\Response();
 
-    if($app['view']->exists('errors/' . $e->getCode())) {
-        $response->setContent($app['view']->render('errors/' . $e->getCode()));
+    if($app->make(EngineContract::class)->exists('errors/' . $e->getCode())) {
+        $response->setContent($app->make(EngineContract::class)->render('errors/' . $e->getCode()));
         $response->setStatusCode($e->getCode());
     } else {
-        $response->setContent($app['view']->render('errors/common'));
+        $response->setContent($app->make(EngineContract::class)->render('errors/common'));
         $response->setStatusCode($e->getCode());
     }
 } catch (\Exception $e) {
@@ -24,7 +30,7 @@ try {
         throw $e;
     } else {
         $response = new \Symfony\Component\HttpFoundation\Response();
-        $response->setContent($app['view']->render('errors/common'));
+        $response->setContent($app->make(EngineContract::class)->render('errors/common'));
         $response->setStatusCode(500);
     }
 }

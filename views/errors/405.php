@@ -1,3 +1,3 @@
 <?php $this->layout('layout')?>
 
-Method not allowed - 405
+Method not allowed

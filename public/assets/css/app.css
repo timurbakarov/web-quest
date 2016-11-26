@@ -1,0 +1,19 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url("../img/seigaiha.png");
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+.well {
+    background: white !important;
+}
+.logo {
+    background: url("../img/portal-teaser_careers-2.jpg") !important;
+    height: 216px;
+}
+.bold {
+    font-weight: bold;
+}

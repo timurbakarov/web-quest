@@ -1,3 +1,3 @@
 <?php $this->layout('layout')?>
 
-Page not found - 404
+Page not found

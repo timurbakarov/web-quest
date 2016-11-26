@@ -17,6 +17,7 @@ class ComposerStaticInit915c7e66ab6d2d75866c702f409356cb
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\Asset\\' => 24,
         ),
         'P' => 
         array (
@@ -53,6 +54,10 @@ class ComposerStaticInit915c7e66ab6d2d75866c702f409356cb
         'Symfony\\Component\\Debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
+        ),
+        'Symfony\\Component\\Asset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/asset',
         ),
         'Psr\\Log\\' => 
         array (

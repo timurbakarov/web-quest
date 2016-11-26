@@ -3,12 +3,16 @@
 /** @var $app \Illuminate\Container\Container */
 use App\Exceptions\Http\MethodNotAllowed;
 use App\Exceptions\Http\NotFoundException;
+use Symfony\Component\HttpFoundation\Request;
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $router) use($app) {
     require __DIR__ . '/routes.php';
 });
 
-$routeInfo = $dispatcher->dispatch($app['request']->getMethod(), $app['request']->getRequestUri());
+/** @var Request $request */
+$request = $app->make(Request::class);
+
+$routeInfo = $dispatcher->dispatch($request->getMethod(), $request->getRequestUri());
 
 $response = new \Symfony\Component\HttpFoundation\Response();
 
