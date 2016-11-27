@@ -5,7 +5,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Navbar Template for Bootstrap</title>
+<title><?=$this->section('title', 'Web Quest')?></title>
 
 <!-- Bootstrap core CSS -->
 <link href="<?=$asset->getUrl('vendor/bootstrap/dist/css/bootstrap.min.css')?>" rel="stylesheet">

@@ -65,7 +65,7 @@ class ComposerStaticInit915c7e66ab6d2d75866c702f409356cb
         ),
         'League\\Plates\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/plates/src',
+            0 => __DIR__ . '/..' . '/tiix/plates/src',
         ),
         'Illuminate\\Contracts\\' => 
         array (

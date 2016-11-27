@@ -17,3 +17,175 @@ body {
 .bold {
     font-weight: bold;
 }
+/* Table display used for buttons in the page context */
+.grid {
+    display: table;
+}
+
+.grid_row {
+    display: table-row;
+}
+
+.grid_row_odd {
+    display: table-row;
+    background-color: #ffffcc;
+}
+
+.grid_row_grn {
+    display: table-row;
+    background-color: #666600;
+    color: #ffffcc;
+}
+
+.grid_button {
+    display: table-cell;
+    padding-left: 25px;
+}
+
+.grid_text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+.grid_text_odd {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 1.4em;
+    background-color: #ffffcc;
+}
+
+.grid_text_border {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 1.4em;
+    border: solid 1px #000000;
+}
+
+.grid_text_border_odd {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 1.4em;
+    border: solid 1px #000000;
+    background-color: #ffffcc;
+}
+
+
+/* Interior grid - table display */
+
+.new_grid {
+    display: table;
+    border: solid 2px #000000;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.new_grid_row_top {
+    display: table-row;
+    background-color: #666600;
+}
+
+.new_grid_row {
+    display: table-row;
+}
+
+.new_grid_row_odd {
+    display: table-row;
+    background-color: #ffffcc;
+}
+
+.new_grid_button {
+    display: table-cell;
+    padding-left: 25px;
+}
+
+.new_grid_header {
+    display: table-cell;
+    vertical-align: middle;
+    /*padding-left:10px;*/
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    border: solid 1px #ffffff;
+}
+
+.new_grid_cell {
+    display: table-cell;
+    vertical-align: middle;
+    /*padding-left:10px;*/
+    font-size: 1.2em;
+    padding: 10px;
+    border: solid 1px #000000;
+}
+
+.new_grid_cell_shaded {
+    display: table-cell;
+    vertical-align: middle;
+    /*padding-left:10px;*/
+    font-size: 1.2em;
+    padding: 10px;
+    border: solid 1px #000000;
+    background-color: #ffffcc;
+}
+
+/* Table display used for bottom navigation */
+
+.bottom_nav_table {
+    display: table;
+    margin: 25px auto;
+}
+
+.bottom_nav_row {
+    display: table-row;
+}
+
+.bottom_nav_cell {
+    display: table-cell;
+    border: solid 1px #666600;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.bottom_nav_cell a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000033;
+}
+
+.bottom_nav_cell a:hover {
+    padding: 12px;
+    background-color: #666600;
+    color: #FFFFCC;
+    font-weight: bold;
+}
+
+.bottom_nav_cell_selected {
+    display: table-cell;
+    border: solid 1px #666600;
+    padding: 12px;
+    text-align: center;
+    background-color: #cccccc;
+    color: #666666;
+    font-size: 1.2em;
+}
+
+.first {
+    font-weight: bold;
+}
+
+p {
+    line-height: 25px;
+}
+
+.headline {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+/* End Bottom Navigation */

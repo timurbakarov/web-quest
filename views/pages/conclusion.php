@@ -1,4 +1,4 @@
-<?php $this->layout('layout')?>
+<?php $this->layout('layout/default')?>
 
 <div class="row">
     <div class="col-lg-3">

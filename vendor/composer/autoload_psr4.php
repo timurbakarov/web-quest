@@ -11,7 +11,7 @@ return array(
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Symfony\\Component\\Asset\\' => array($vendorDir . '/symfony/asset'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
+    'League\\Plates\\' => array($vendorDir . '/tiix/plates/src'),
     'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
     'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),

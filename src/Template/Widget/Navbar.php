@@ -56,8 +56,14 @@ class Navbar
             ],
             [
                 'label' => 'Steps',
-                'href' => $this->urlGenerator->generateUrl('about'),
-                'active' => $this->request->getRequestUri() == '/steps',
+                'href' => $this->urlGenerator->generateUrl('task1'),
+                'active' => in_array($this->request->getRequestUri(), [
+                    '/task1',
+                    '/task2',
+                    '/task3',
+                    '/task4',
+                    '/task5',
+                ]),
             ],
             [
                 'label' => 'Activities',
@@ -66,8 +72,8 @@ class Navbar
             ],
             [
                 'label' => 'Evaluation',
-                'href' => $this->urlGenerator->generateUrl('about'),
-                'active' => $this->request->getRequestUri() == '',
+                'href' => $this->urlGenerator->generateUrl('evaluation'),
+                'active' => $this->request->getRequestUri() == '/evaluation',
             ],
             [
                 'label' => 'Conclusion',

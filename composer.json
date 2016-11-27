@@ -2,7 +2,7 @@
     "require": {
         "illuminate/container": "^5.2",
         "nikic/fast-route": "^1.0",
-        "league/plates": "^3.1",
+        "tiix/plates": "dev-master",
         "symfony/debug": "^3.1",
         "symfony/http-foundation": "^3.1",
         "symfony/asset": "^3.1"
@@ -11,5 +11,7 @@
         "psr-4": {
             "App\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
