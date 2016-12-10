@@ -3,5 +3,5 @@
 <?=$this->section('content')?>
 
 <div class="row" style="text-align: center; margin-top: 40px;">
-    <?=$this->widget(\App\Template\Widget\TasksNav::class)?>
+    <?=$this->widget(\App\Template\Widget\ActivityNav::class)?>
 </div>

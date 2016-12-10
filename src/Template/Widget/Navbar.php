@@ -67,8 +67,11 @@ class Navbar
             ],
             [
                 'label' => 'Activities',
-                'href' => $this->urlGenerator->generateUrl('about'),
-                'active' => $this->request->getRequestUri() == '',
+                'href' => $this->urlGenerator->generateUrl('activity-new-words'),
+                'active' => in_array($this->request->getRequestUri(), [
+                    '/activity-new-words',
+                    '/activity-new-words-answers',
+                ]),
             ],
             [
                 'label' => 'Evaluation',
