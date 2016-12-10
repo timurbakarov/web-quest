@@ -11,7 +11,7 @@ body {
     background: white !important;
 }
 .logo {
-    background: url("../img/portal-teaser_careers-2.jpg") !important;
+    background: url("../img/portal-teaser_careers-2.jpg") 110px -1px !important;
     height: 216px;
 }
 .bold {

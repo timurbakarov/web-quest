@@ -9,7 +9,7 @@
         <div class="grid_button" style="vertical-align: middle;">
             <a href="http://www.bbc.co.uk/science/humanbody/mind/surveys/careers" target="_blank"><img src="<?=$this->asset('assets/img/wqbttn.gif')?>" alt="WebQuest Icon" width="36" height="36" border="0" /></a></div>
         <div class="grid_text">
-            <a href="http://www.damngood.com/ready/exmpl/follow-up.html" target="_blank">Follow-Up Letter</a></div>
+            <a href="https://s-media-cache-ak0.pinimg.com/originals/2d/5e/07/2d5e075ec1ffe7df53b1654dcc038f06.gif" target="_blank">Follow-Up Letter</a></div>
     </div>
 </div>
 <p><span class="first">Step 2:</span>  Think about what you want to include in the letter.  It is a good idea to include things you talked about during the interview.</p>
