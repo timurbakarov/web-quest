@@ -1,62 +1,37 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">STEP 4: TAKE PART IN A MOCK INTERVIEW</h3>
+<h3 class="headline">STEP 3: WRITE A RESUME AND COVER LETTER</h3>
 
-<p>You will be working with two partners for this task.  Each person in your group will have a chance to do each job.  You will be the interviewer once, the interviewee once, and work the camera once.</p>
-<p>Here is an example of how your jobs will change each day.</p>
-
-<div class="new_grid" style="margin-bottom: 20px; margin-top: 10px;">
-    <div class="new_grid_row_top">
-        <div class="new_grid_header" style="width:80px;">DAY #</div>
-        <div class="new_grid_header" style="width:170px;">GROUP MEMBER'S NAME</div>
-        <div class="new_grid_header" style="width:233px;">JOB FOR THE DAY</div>
+<p><span class="first">Step 1:</span> Look at the examples of  a cover letter and a resume and create your own ones.</p>
+<!-- link grid -->
+<div class="grid" style="margin-bottom: 10px;">
+    <div class="grid_row">
+        <div class="grid_button" style="vertical-align: middle;"><a href="http://www.damngood.com/jobseekers/tips.html" target="new"><img src="<?=$this->asset('assets/img/wqbttn.gif')?>" alt="WebQuest Icon" width="36" height="36" border="0" /></a></div>
+        <div class="grid_text">
+            <a href="http://www.careerenter.com/restaurant-server-resume-sample/" target="new">Resume</a></div>
     </div>
-    <div class="new_grid_row">
-        <div class="new_grid_cell" style="width:80px;">Day 1</div>
-        <div class="new_grid_cell" style="width:170px;">Mark<br />
-            <br />
-            Monique<br />
-            <br />
-            Carlos</div>
-        <div class="new_grid_cell" style="width:233px;">Interviewer<br />
-            <br />
-            Interviewee
-            <br />
-            <br />
-            Cameraman</div>
-    </div>
-    <div class="new_grid_row_odd">
-        <div class="new_grid_cell" style="width:80px;">Day 2</div>
-        <div class="new_grid_cell" style="width:170px;">Mark<br />
-            <br />
-            Monique<br />
-            <br />
-            Carlos</div>
-        <div class="new_grid_cell" style="width:233px;"> Cameraman<br />
-            <br />Interviewer<br />
-            <br />
-            Interviewee
-
-        </div>
-    </div>
-    <div class="new_grid_row">
-        <div class="new_grid_cell" style="width:80px;">Day 3</div>
-        <div class="new_grid_cell" style="width:170px;">Mark<br />
-            <br />
-            Monique<br />
-            <br />
-            Carlos</div>
-        <div class="new_grid_cell" style="width:233px;">Interviewee<br />
-            <br />
-            Cameraman<br />
-            <br />Interviewer
-        </div>
+    <div class="grid_row">
+        <div class="grid_button" style="vertical-align: middle;">
+            <a href="http://www.jobbankusa.com/resumewrite/Letters/CoverLetters" target="new"><img src="<?=$this->asset('assets/img/wqbttn.gif')?>" alt="WebQuest Icon" width="36" height="36" border="0" /></a></div>
+        <div class="grid_text">
+            <a href="https://ru.pinterest.com/pin/450500768949431159/" target="new">Cover Letter</a></div>
     </div>
 </div>
 
-<p><span class="first">Step 1:</span> Work as a group. Research what types of questions are usually asked during an <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Interview" data-content="To meet with someone from a company to talk about a job that you are trying to get.">interview</a></p>
-<p><span class="first">Step 2:</span> Write questions that each interviewer can ask during the mock interviews.  Make sure that the questions are appropriate for each job.</p>
-<p><span class="first">Step 3:</span> Prepare yourselves for the interviews. Read some interviewing tips. Learn what to wear to an interview. Finally, learn how important <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Body language" data-content="The way your body can tell a person how you are feeling without using words.">body language</a> can be.</p>
-<p><span class="first">Step 4:</span> Learn how to use your school's video camera. You will each videotape one interview. It is important to make sure that everyone in your group learns how to operate the video camera before the interviews begin. You will have a chance to watch the videos later. This will let you see what went well and not-so-well. If your school does not have a video camera, the cameraman can be an observer.  He or she can watch the interviews and take notes.</p>
-<!-- bottom navigation table -->
+<p><span class="first">Step 2:</span> Read through advertisements for a restaurant server jobs. Choose the one you like.
+
+<div class="grid" style="margin-bottom: 10px;">
+    <div class="grid_row">
+        <div class="grid_button" style="vertical-align: middle;"><a href="http://www.indeed.com/q-Restaurant-Server-l-Los-Angeles,-CA-jobs.html" target="new"><img src="<?=$this->asset('assets/img/wqbttn.gif')?>" alt="WebQuest Icon" width="36" height="36" border="0" /></a></div>
+        <div class="grid_text">
+            <a href="http://www.indeed.com/q-Restaurant-Server-l-Los-Angeles,-CA-jobs.html" target="new">Advertisements</a></div>
+    </div>
+</div>
+
+<!-- end link grid -->
+<p><span class="first">Tips:</span> Think about what you should include in your resume and cover letter.  Then, write a resume and cover letter of your own. You can use a <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Template" data-content="A guide; something that helps you decide what to do.">template</a> on a computer.  Many word processing programs have resume templates.</p>
+<p><span class="first">Tips:</span> <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Edit" data-content="To look for mistakes and correct them.">Edit</a> your work for any mistakes.  Have one of your partners edit your resume and cover letter, too.  If you are using a computer be sure to use the spell check.</p>
+<p><span class="first">Tips:</span> Finally, write or type the <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Final drafts" data-content="A copy that is the best you can do.">final drafts</a> of your resume and cover letter.  These papers will be turned in.
+    <!-- bottom navigation table -->
+</p>
 

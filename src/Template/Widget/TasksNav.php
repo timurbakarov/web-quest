@@ -69,7 +69,11 @@ class TasksNav
                 'href' => $this->urlGenerator->generateUrl('step5'),
                 'active' => $this->request->getRequestUri() == '/step5',
             ],
-
+            [
+                'label' => 'Step 6',
+                'href' => $this->urlGenerator->generateUrl('step6'),
+                'active' => $this->request->getRequestUri() == '/step6',
+            ],
         ];
     }
 }
