@@ -54,13 +54,13 @@ class ActivityNav
             ],
             [
                 'label' => 'Multiple Choice',
-                'href' => $this->urlGenerator->generateUrl('task2'),
-                'active' => $this->request->getRequestUri() == '/task2',
+                'href' => $this->urlGenerator->generateUrl('activity-multiple-choice'),
+                'active' => $this->request->getRequestUri() == '/activity-multiple-choice',
             ],
             [
-                'label' => 'Marching',
-                'href' => $this->urlGenerator->generateUrl('task3'),
-                'active' => $this->request->getRequestUri() == '/task3',
+                'label' => 'Matching',
+                'href' => $this->urlGenerator->generateUrl('activity-matching'),
+                'active' => $this->request->getRequestUri() == '/activity-matching',
             ],
 
         ];
