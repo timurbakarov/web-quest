@@ -17,7 +17,7 @@
             <a href="<?=$this->url('step3')?>">Step 3:  Fill Out An Application</a><br><br>
         </li>
         <li>
-            <a href="<?=$this->url('step4')?>">Step 4:  Write a Resume and Cover Letter</a><br><br>
+            <a href="<?=$this->url('step4')?>">Step 4:  Write a Resume</a><br><br>
         </li>
         <li>
             <a href="<?=$this->url('step5')?>">Step 5:  Take Part In A Mock Interview</a><br><br>

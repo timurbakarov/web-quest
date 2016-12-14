@@ -11,7 +11,9 @@
         </a>
     </div>
     <div class="grid_text">
-        <a href="http://www.surveytemplate.org/wp-content/uploads/2016/10/simple-job-application-letter-samples-80233704.png" target="new">Advertisements</a>
+        <a href="http://www.surveytemplate.org/wp-content/uploads/2016/10/simple-job-application-letter-samples-80233704.png" target="new">
+            Application letter
+        </a>
     </div>
 </div>
 <br />
