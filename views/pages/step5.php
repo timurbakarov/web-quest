@@ -1,9 +1,14 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">STEP 4: TAKE PART IN A MOCK INTERVIEW</h3>
+<h3 class="headline">STEP 5: TAKE PART IN A MOCK INTERVIEW</h3>
 
 <p>You will be working with two partners for this task.  Each person in your group will have a chance to do each job.  You will be the interviewer once, the interviewee once, and work the camera once.</p>
 <p>Here is an example of how your jobs will change each day.</p>
+
+<div style="text-align: center; margin: 20px 0;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/naIkpQ_cIt0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 <div class="new_grid" style="margin-bottom: 20px; margin-top: 10px;">
     <div class="new_grid_row_top">
@@ -54,9 +59,9 @@
     </div>
 </div>
 
-<p><span class="first">Step 1:</span> Work as a group. Research what types of questions are usually asked during an <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Interview" data-content="To meet with someone from a company to talk about a job that you are trying to get.">interview</a></p>
-<p><span class="first">Step 2:</span> Write questions that each interviewer can ask during the mock interviews.  Make sure that the questions are appropriate for each job.</p>
-<p><span class="first">Step 3:</span> Prepare yourselves for the interviews. Read some interviewing tips. Learn what to wear to an interview. Finally, learn how important <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Body language" data-content="The way your body can tell a person how you are feeling without using words.">body language</a> can be.</p>
-<p><span class="first">Step 4:</span> Learn how to use your school's video camera. You will each videotape one interview. It is important to make sure that everyone in your group learns how to operate the video camera before the interviews begin. You will have a chance to watch the videos later. This will let you see what went well and not-so-well. If your school does not have a video camera, the cameraman can be an observer.  He or she can watch the interviews and take notes.</p>
+<p><span class="first">Tip 1:</span> Work as a group. Research what types of questions are usually asked during an <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Interview" data-content="To meet with someone from a company to talk about a job that you are trying to get.">interview</a></p>
+<p><span class="first">Tip 2:</span> Write questions that each interviewer can ask during the mock interviews.  Make sure that the questions are appropriate for each job.</p>
+<p><span class="first">Tip 3:</span> Prepare yourselves for the interviews. Read some interviewing tips. Learn what to wear to an interview. Finally, learn how important <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Body language" data-content="The way your body can tell a person how you are feeling without using words.">body language</a> can be.</p>
+<p><span class="first">Tip 4:</span> Learn how to use your school's video camera. You will each videotape one interview. It is important to make sure that everyone in your group learns how to operate the video camera before the interviews begin. You will have a chance to watch the videos later. This will let you see what went well and not-so-well. If your school does not have a video camera, the cameraman can be an observer.  He or she can watch the interviews and take notes.</p>
 <!-- bottom navigation table -->
 

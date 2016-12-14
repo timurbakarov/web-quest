@@ -1,7 +1,7 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">STEP 2: FILL OUT AN APPLICATION</h3>
-<p>Read through advertisements for a restaurant server jobs. Choose the one you like.</p>
+<h3 class="headline">STEP 2: READ THROUGH THE ADVERTISEMENTS</h3>
+<p>Read through the advertisements for a restaurant server jobs. Choose the one you like.</p>
 
 <div class="grid_row">
     <div class="grid_button" style="vertical-align: middle;">
