@@ -12,7 +12,7 @@
             <div class="well logo">
                 <div style="font-size: 65px; font-weight: bold; font-family: 'Aref Ruqaa', serif; margin-bottom: 44px;">WebQuest</div>
                 <div style="font-size: 33px; font-weight: bold; font-family: 'Aref Ruqaa', serif;">
-                    <span>Choosing a career</span>
+                    <span>Find a job</span>
                 </div>
             </div>
 
