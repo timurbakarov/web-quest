@@ -71,6 +71,8 @@ class Navbar
                 'active' => in_array($this->request->getRequestUri(), [
                     '/activity-new-words',
                     '/activity-new-words-answers',
+                    '/activity-multiple-choice',
+                    '/activity-matching',
                 ]),
             ],
             [
