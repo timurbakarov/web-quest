@@ -50,7 +50,7 @@ class Navbar
                 'active' => $this->request->getRequestUri() == '/',
             ],
             [
-                'label' => 'Steps',
+                'label' => 'Task',
                 'href' => $this->urlGenerator->generateUrl('steps'),
                 'active' => in_array($this->request->getRequestUri(), [
                     '/steps',
