@@ -3,7 +3,7 @@
 <div id="wq_main">
     <!-- Main Body Area -->
 
-    <h3 class="headline">TASK 1: COMPLETE THE CAREERS TEST</h3>
+    <h3 class="headline">STEP 1: COMPLETE THE CAREERS TEST</h3>
     <p><span class="first">Step 1:</span> Fill out the application letter</p>
     <div class="grid" style="margin-bottom: 10px;">
         <div class="grid_row">

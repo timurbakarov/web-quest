@@ -1,6 +1,6 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">TASK 3: WRITE A RESUME AND COVER LETTER</h3>
+<h3 class="headline">STEP 3: WRITE A RESUME AND COVER LETTER</h3>
 
 <p><span class="first">Step 1:</span> Look at the examples of  a cover letter and a resume and create your own ones.</p>
 <!-- link grid -->

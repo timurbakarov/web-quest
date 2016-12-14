@@ -45,29 +45,29 @@ class TasksNav
     {
         return [
             [
-                'label' => 'Task 1',
-                'href' => $this->urlGenerator->generateUrl('task1'),
-                'active' => $this->request->getRequestUri() == '/task1',
+                'label' => 'Step 1',
+                'href' => $this->urlGenerator->generateUrl('step1'),
+                'active' => $this->request->getRequestUri() == '/step1',
             ],
             [
-                'label' => 'Task 2',
-                'href' => $this->urlGenerator->generateUrl('task2'),
-                'active' => $this->request->getRequestUri() == '/task2',
+                'label' => 'Step 2',
+                'href' => $this->urlGenerator->generateUrl('step2'),
+                'active' => $this->request->getRequestUri() == '/step2',
             ],
             [
-                'label' => 'Task 3',
-                'href' => $this->urlGenerator->generateUrl('task3'),
-                'active' => $this->request->getRequestUri() == '/task3',
+                'label' => 'Step 3',
+                'href' => $this->urlGenerator->generateUrl('step3'),
+                'active' => $this->request->getRequestUri() == '/step3',
             ],
             [
-                'label' => 'Task 4',
-                'href' => $this->urlGenerator->generateUrl('task4'),
-                'active' => $this->request->getRequestUri() == '/task4',
+                'label' => 'Step 4',
+                'href' => $this->urlGenerator->generateUrl('step4'),
+                'active' => $this->request->getRequestUri() == '/step4',
             ],
             [
-                'label' => 'Task 5',
-                'href' => $this->urlGenerator->generateUrl('task5'),
-                'active' => $this->request->getRequestUri() == '/task5',
+                'label' => 'Step 5',
+                'href' => $this->urlGenerator->generateUrl('step5'),
+                'active' => $this->request->getRequestUri() == '/step5',
             ],
 
         ];

@@ -1,6 +1,6 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">TASK 5: WRITE A FOLLOW-UP LETTER</h3>
+<h3 class="headline">STEP 5: WRITE A FOLLOW-UP LETTER</h3>
 
 <p><span class="first">Step 1:</span> After your interview is done you will need to write a <a href="javascript:void(0);" data-toggle="popover" class="bold" title="Follow-up letter" data-content="A letter that is usually sent to someone after an interview.">follow-up letter</a>.  Research what should go in a follow-up letter.</p>
 

@@ -1,6 +1,6 @@
 <?php $this->layout('layout/tasks')?>
 
-<h3 class="headline">TASK 4: TAKE PART IN A MOCK INTERVIEW</h3>
+<h3 class="headline">STEP 4: TAKE PART IN A MOCK INTERVIEW</h3>
 
 <p>You will be working with two partners for this task.  Each person in your group will have a chance to do each job.  You will be the interviewer once, the interviewee once, and work the camera once.</p>
 <p>Here is an example of how your jobs will change each day.</p>
